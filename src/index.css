@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.boards { margin: 20px 0; overflow: hidden; }
+.board { border: 5px solid #ccc; float: left; font: 700 24px HelveticaNeue, Helvetica, Arial;     margin: 20px;
+  padding: 19px; }
+.board.selected { border-color: #3BA8AA; }
+
+#textBox {
+  width: 352px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.textDisplay {
+  margin: 0 0 50px 0;
+}
